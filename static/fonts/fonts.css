@@ -1,0 +1,121 @@
+/* EuclidCircularA Font Family */
+
+@font-face {
+	font-family: 'EuclidCircularA';
+	src: url('/fonts/EuclidCircularA/EuclidCircularA-Light.ttf')
+		format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'EuclidCircularA';
+	src: url('/fonts/EuclidCircularA/EuclidCircularA-LightItalic.ttf')
+		format('truetype');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'EuclidCircularA';
+	src: url('/fonts/EuclidCircularA/EuclidCircularA-Regular.ttf')
+		format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'EuclidCircularA';
+	src: url('/fonts/EuclidCircularA/EuclidCircularA-Italic.ttf')
+		format('truetype');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'EuclidCircularA';
+	src: url('/fonts/EuclidCircularA/EuclidCircularA-Medium.ttf')
+		format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'EuclidCircularA';
+	src: url('/fonts/EuclidCircularA/EuclidCircularA-MediumItalic.ttf')
+		format('truetype');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'EuclidCircularA';
+	src: url('/fonts/EuclidCircularA/EuclidCircularA-SemiBold.ttf')
+		format('truetype');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'EuclidCircularA';
+	src: url('/fonts/EuclidCircularA/EuclidCircularA-SemiBoldItalic.ttf')
+		format('truetype');
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'EuclidCircularA';
+	src: url('/fonts/EuclidCircularA/EuclidCircularA-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'EuclidCircularA';
+	src: url('/fonts/EuclidCircularA/EuclidCircularA-BoldItalic.ttf')
+		format('truetype');
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+}
+
+/* CSS переменные для удобства */
+:root {
+	--font-euclid: 'EuclidCircularA', system-ui, -apple-system, sans-serif;
+}
+
+/* Базовые стили (опционально) */
+body {
+	font-family: var(--font-euclid);
+	font-weight: 400;
+}
+
+/* Утилитарные классы */
+.font-light {
+	font-weight: 300;
+}
+.font-regular {
+	font-weight: 400;
+}
+.font-medium {
+	font-weight: 500;
+}
+.font-semibold {
+	font-weight: 600;
+}
+.font-bold {
+	font-weight: 700;
+}
+.font-italic {
+	font-style: italic;
+}

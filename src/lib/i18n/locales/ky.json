@@ -1,0 +1,306 @@
+{
+	"nav": {
+		"home": "Башкы бет",
+		"movies": "Тасмалар",
+		"cinemas": "Кинотеатрлар",
+		"promotions": "Акциялар",
+		"signIn": "Кирүү",
+		"profile": "Профиль",
+		"myBookings": "Менин билеттерим",
+		"favorites": "Тандалмалар",
+		"loyalty": "Лоялдык",
+		"notifications": "Билдирүүлөр",
+		"giftCards": "Сертификаттар",
+		"referrals": "Рефералдар",
+		"logout": "Чыгуу"
+	},
+	"home": {
+		"heroTitle": "Сиздин кинотеатр — бир чыкылдатуу менен",
+		"heroSubtitle": "Билеттерди онлайн бронирлеңиз, эң жакшы орундарды тандаңыз",
+		"heroAction": "Афишаны көрүү",
+		"nowShowing": "Азыр көрсөтүлүүдө",
+		"upcoming": "Жакында",
+		"promotions": "Акциялар жана сунуштар",
+		"announcements": "Жарыялар",
+		"welcome": {
+			"movie": "Кино",
+			"goToMovie": "Киного өтүү",
+			"addToFavorites": "Тандалмаларга",
+			"inFavorites": "Тандалмаларда",
+			"loading": "Мыкты кинолор жүктөлүүдө...",
+			"noMovies": "Кинолор жок",
+			"pause": "Тыным",
+			"play": "Ойнотуу"
+		}
+	},
+	"movies": {
+		"title": "Афиша",
+		"allGenres": "Бардык жанрлар",
+		"nowShowing": "Прокатта",
+		"upcoming": "Жакында",
+		"search": "Тасма издөө...",
+		"duration": "{minutes} мин",
+		"noMovies": "Тасмалар жок",
+		"buyTicket": "Билет сатып алуу",
+		"viewDetails": "Толугураак"
+	},
+	"movie": {
+		"trailer": "Трейлер",
+		"reviews": "Пикирлер",
+		"sessions": "Сеанстар",
+		"noSessions": "Сеанстар жок",
+		"genre": "Жанр",
+		"duration": "Узактыгы",
+		"language": "Тил",
+		"ageRating": "Жаш чеги",
+		"releaseDate": "Чыгуу күнү",
+		"writeReview": "Пикир жазуу",
+		"yourRating": "Сиздин баа",
+		"comment": "Комментарий",
+		"submit": "Жөнөтүү",
+		"schedule": {
+			"yesterday": "Кечээ",
+			"today": "Бүгүн",
+			"tomorrow": "Эртең",
+			"customRange": "Күн диапазонун тандоо"
+		},
+		"status": {
+			"NOW_SHOWING": "Прокатта",
+			"UPCOMING": "Жакында",
+			"ARCHIVED": "Архивде"
+		}
+	},
+	"screening": {
+		"selectSeats": "Орундарды тандаңыз",
+		"screen": "Экран",
+		"available": "Бош",
+		"selected": "Тандалган",
+		"booked": "Ээленген",
+		"vip": "VIP",
+		"wheelchair": "Майып арабасы",
+		"held": "Бронирленген",
+		"continue": "Улантуу",
+		"holdTimer": "Орундар {time} бронирленген",
+		"seatsSelected": "{count} орун тандалды",
+		"total": "Жыйынтык",
+		"pastCutoff": "Сеанс башталып калды, брондоо жеткиликсиз",
+		"finished": "Сеанс аяктап калды, брондоо жеткиликсиз",
+		"format": {
+			"TWO_D": "2D",
+			"THREE_D": "3D",
+			"IMAX": "IMAX",
+			"DOLBY_ATMOS": "Dolby Atmos",
+			"FOUR_DX": "4DX"
+		}
+	},
+	"booking": {
+		"title": "Буйрутма",
+		"orderSummary": "Сиздин буйрутма",
+		"payment": "Төлөм ыкмасы",
+		"cash": "Накталай",
+		"card": "Карта",
+		"online": "Онлайн",
+		"promoCode": "Промокод",
+		"apply": "Колдонуу",
+		"foodOrder": "Тамак буйрутмасы",
+		"addFood": "Тамак кошуу",
+		"pay": "Төлөө",
+		"confirmation": "Бронирлөө ырасталды!",
+		"tickets": "Сиздин билеттер",
+		"scanQr": "Кирүүдө QR-кодду көрсөтүңүз",
+		"status": {
+			"PENDING": "Күтүүдө",
+			"CONFIRMED": "Ырасталды",
+			"CANCELLED": "Жокко чыгарылды",
+			"COMPLETED": "Аяктады",
+			"NO_SHOW": "Келген жок"
+		},
+		"ticketStatus": {
+			"VALID": "Жарактуу",
+			"USED": "Колдонулган",
+			"CANCELLED": "Жокко чыгарылган",
+			"EXPIRED": "Мөөнөтү өткөн"
+		},
+		"cancel_cta": "Бронирлөөнү жокко чыгаруу",
+		"cancel_confirm_title": "Бронирлөөнү жокко чыгарасызбы?",
+		"cancel_confirm_body": "Орундар бошотулуп, бронирлөө жокко чыгарылат.",
+		"cancel_confirm_yes": "Ооба, жокко чыгаруу",
+		"cancel_confirm_no": "Жок, калтыруу",
+		"cancel_success": "Бронирлөө жокко чыгарылды",
+		"errors": {
+			"cancel_failed": "Бронирлөөнү жокко чыгаруу мүмкүн болгон жок",
+			"seats_unavailable": "{seats} орундары ээлендиргендер — тандоодон алып салынды",
+			"generic": "Бронду түзүү мүмкүн эмес"
+		},
+		"active_banner": {
+			"title": "Аяктабаган бронь",
+			"pay_cta": "Төлөө",
+			"cancel_cta": "Жокко чыгаруу"
+		},
+		"expired_view": {
+			"title": "Төлөм убактысы бүттү",
+			"subtitle": "Сиздин орундарыңыз башкаларга жеткиликтүү болду. Жаңыдан тандаңыз.",
+			"select_again_cta": "Орундарды кайра тандоо"
+		},
+		"conflict_dialog": {
+			"same_screening_title": "Бул сеанска брониңиз бар",
+			"same_screening_body": "Сиз мурунтан орундарды брондогонсуз: {seats}. Төлөмдү аяктаңыз же башка орундарды тандоо үчүн бронду жокко чыгарыңыз.",
+			"other_screening_title": "Төлөнбөгөн брониңиз бар",
+			"other_screening_body": "Система бир учурда бир гана активдүү бронду уруксат берет. Төлөмдү аяктаңыз же учурдагы бронду жокко чыгарыңыз.",
+			"remaining": "Калды:",
+			"return_to_payment_cta": "Төлөмгө кайтуу",
+			"cancel_and_rebook_cta": "Аны жокко чыгарып, бул орундарды брондоо"
+		}
+	},
+	"profile": {
+		"title": "Профиль",
+		"editProfile": "Өзгөртүү",
+		"bookings": "Бронирлөө тарыхы",
+		"favorites": "Тандалма тасмалар",
+		"loyalty": "Клуб картасы",
+		"notifications": "Билдирүүлөр",
+		"giftCards": "Белек сертификаттары",
+		"referrals": "Реферал программасы",
+		"noBookings": "Бронирлөөлөр жок",
+		"noFavorites": "Тандалма тасмалар жок",
+		"noNotifications": "Билдирүүлөр жок"
+	},
+	"common": {
+		"loading": "Жүктөлүүдө...",
+		"error": "Ката кетти",
+		"retry": "Кайталоо",
+		"save": "Сактоо",
+		"cancel": "Жокко чыгаруу",
+		"delete": "Өчүрүү",
+		"edit": "Өзгөртүү",
+		"create": "Түзүү",
+		"search": "Издөө...",
+		"noResults": "Эч нерсе табылган жок",
+		"back": "Артка",
+		"next": "Кийинки",
+		"confirm": "Ырастоо",
+		"close": "Жабуу",
+		"status": "Статус",
+		"active": "Активдүү",
+		"inactive": "Активдүү эмес",
+		"seatType": {
+			"STANDARD": "Стандарт",
+			"VIP": "VIP",
+			"LOVE_SEAT": "Жуп орундук",
+			"RECLINER": "Реклайнер",
+			"WHEELCHAIR": "Кадриржардамчы",
+			"DIRECTOR": "Директорский"
+		},
+		"bookingType": {
+			"ONLINE": "Онлайн",
+			"OFFLINE": "Касса",
+			"GROUP": "Топтук"
+		},
+		"groupBookingStatus": {
+			"PENDING": "Күтүүдө",
+			"APPROVED": "Одобренду",
+			"REJECTED": "Четке кагылды",
+			"CANCELLED": "Жокко чыгарылды"
+		},
+		"giftCardStatus": {
+			"ACTIVE": "Активдүү",
+			"PARTIALLY_USED": "Жарым-жартылай колдонулган",
+			"FULLY_USED": "Колдонулган",
+			"EXPIRED": "Мөөнөтү өткөн"
+		},
+		"discountType": {
+			"PERCENTAGE": "Пайыз",
+			"FIXED_AMOUNT": "Белгиленген сумма"
+		},
+		"loyaltyTier": {
+			"BASIC": "Базалык",
+			"SILVER": "Күмүш",
+			"GOLD": "Алтын",
+			"PLATINUM": "Платина"
+		},
+		"hallType": {
+			"STANDARD": "Стандарт",
+			"VIP": "VIP",
+			"IMAX": "IMAX",
+			"DOLBY_ATMOS": "Dolby Atmos",
+			"FOUR_DX": "4DX"
+		},
+		"foodCategory": {
+			"SNACKS": "Снектер",
+			"BEVERAGES": "Суусундуктар",
+			"COMBO": "Комбо",
+			"DESSERTS": "Десерттер"
+		},
+		"paymentStatus": {
+			"PAID": "Төлөндү",
+			"REFUNDED": "Кайтарылды",
+			"PENDING": "Күтүүдө"
+		}
+	},
+	"ticket": {
+		"yourTicket": "Сиздин билет",
+		"seatsLabel": "Орундар",
+		"rowSeat": "{row}-катар: орун {seats}",
+		"rowSeats": "{row}-катар: орундар {seats}",
+		"showAtEntrance": "Кирүүдө QR-кодду көрсөтүңүз — бүт буйрутмага бир код",
+		"share": "Бөлүшүү",
+		"shareCopied": "Шилтеме көчүрүлдү",
+		"statusPartiallyUsed": "{total} дан {count} колдонулган",
+		"entryWithThisQr": "Кирүүдө бул QR-кодду көрсөтүңүз",
+		"tabs": {
+			"master": "Жалпы QR",
+			"individual": "Орун боюнча"
+		},
+		"preview": "Билетти кароо",
+		"openPreview": "QR-кодду ачуу",
+		"closePreview": "Жабуу",
+		"previousSlide": "Мурунку билет",
+		"nextSlide": "Кийинки билет",
+		"slideCounter": "{current} / {total}",
+		"publicHeader": {
+			"title": "Билеттер"
+		},
+		"header": {
+			"duration": "{n} мүн",
+			"timeRange": "{start} – {end}"
+		}
+	},
+	"publicTicket": {
+		"statusUsedAt": "Колдонулду {time}"
+	},
+	"scanner": {
+		"title": "Билет сканери",
+		"scanHint": "Камераны QR-кодго багыттаңыз",
+		"markUsed": "Жабуу",
+		"alreadyUsed": "Мурунтан колдонулган",
+		"cancelled": "Билет жокко чыгарылган",
+		"expired": "Мөөнөтү өткөн",
+		"ticketExpired": "Сеанс бүттү, билеттин мөөнөтү өттү",
+		"noCamera": "Камерага кирүү жок",
+		"scanSuccess": "Билет жабылды",
+		"unknownFormat": "QR форматы белгисиз",
+		"networkError": "Байланыш жок, кайталаңыз",
+		"next": "Кийинки",
+		"openScanner": "Сканер",
+		"markUsedCount": "Жабуу ({count})",
+		"revertCountdown": "Жокко чыгаруу",
+		"partialResult": "Жабылды {redeemed}, өткөрүп жиберилди {skipped}",
+		"revertSuccess": "Билет жокко чыгарылды",
+		"errors": {
+			"network": "Байланыш жок, кайталаңыз",
+			"notFound": "QR-код белгисиз",
+			"revertExpired": "Жокко чыгаруу убактысы бүттү",
+			"alreadyUsed": "Билет колдонулган",
+			"cancelled": "Билет жокко чыгарылган",
+			"expired": "Билет мөөнөтү бүткөн",
+			"invalidTicket": "Билет бул бронддон эмес",
+			"revertForbidden": "Сканерлеген кишиге гана жокко чыгарууга болот"
+		}
+	},
+	"footer": {
+		"stayUpdated": "Кабардар болуңуз",
+		"newsletterText": "Жаңылыктарга жазылып, жаңы тасмалар тууралуу биринчилерден болуп билиңиз",
+		"emailPlaceholder": "Сиздин email",
+		"rights": "Бардык укуктар корголгон."
+	}
+}

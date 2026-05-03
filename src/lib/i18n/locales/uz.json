@@ -1,0 +1,306 @@
+{
+	"nav": {
+		"home": "Bosh sahifa",
+		"movies": "Filmlar",
+		"cinemas": "Kinoteatrlar",
+		"promotions": "Aksiyalar",
+		"signIn": "Kirish",
+		"profile": "Profil",
+		"myBookings": "Mening chiptalarim",
+		"favorites": "Tanlanganlar",
+		"loyalty": "Sodiqlik",
+		"notifications": "Bildirishnomalar",
+		"giftCards": "Sertifikatlar",
+		"referrals": "Referallar",
+		"logout": "Chiqish"
+	},
+	"home": {
+		"heroTitle": "Sizning kinoteatringiz — bir bosish bilan",
+		"heroSubtitle": "Chiptalarni onlayn band qiling, eng yaxshi o'rinlarni tanlang",
+		"heroAction": "Afishani ko'rish",
+		"nowShowing": "Hozir ko'rsatilmoqda",
+		"upcoming": "Tez kunda",
+		"promotions": "Aksiyalar va takliflar",
+		"announcements": "E'lonlar",
+		"welcome": {
+			"movie": "Film",
+			"goToMovie": "Filmga o'tish",
+			"addToFavorites": "Tanlanganlar",
+			"inFavorites": "Tanlanganlarda",
+			"loading": "Eng yaxshi filmlar yuklanmoqda...",
+			"noMovies": "Filmlar mavjud emas",
+			"pause": "To'xtatish",
+			"play": "Ijro etish"
+		}
+	},
+	"movies": {
+		"title": "Afisha",
+		"allGenres": "Barcha janrlar",
+		"nowShowing": "Prokatda",
+		"upcoming": "Tez kunda",
+		"search": "Film qidirish...",
+		"duration": "{minutes} daq",
+		"noMovies": "Filmlar yo'q",
+		"buyTicket": "Chipta sotib olish",
+		"viewDetails": "Batafsil"
+	},
+	"movie": {
+		"trailer": "Treyler",
+		"reviews": "Sharhlar",
+		"sessions": "Seanslar",
+		"noSessions": "Seanslar yo'q",
+		"genre": "Janr",
+		"duration": "Davomiyligi",
+		"language": "Til",
+		"ageRating": "Yosh chegarasi",
+		"releaseDate": "Chiqish sanasi",
+		"writeReview": "Sharh yozish",
+		"yourRating": "Sizning bahoyingiz",
+		"comment": "Izoh",
+		"submit": "Yuborish",
+		"schedule": {
+			"yesterday": "Kecha",
+			"today": "Bugun",
+			"tomorrow": "Ertaga",
+			"customRange": "Sana oralig'ini tanlang"
+		},
+		"status": {
+			"NOW_SHOWING": "Prokatda",
+			"UPCOMING": "Tez kunda",
+			"ARCHIVED": "Arxivda"
+		}
+	},
+	"screening": {
+		"selectSeats": "O'rinlarni tanlang",
+		"screen": "Ekran",
+		"available": "Bo'sh",
+		"selected": "Tanlangan",
+		"booked": "Band",
+		"vip": "VIP",
+		"wheelchair": "Nogironlar aravachasi",
+		"held": "Band qilingan",
+		"continue": "Davom etish",
+		"holdTimer": "O'rinlar {time} band qilingan",
+		"seatsSelected": "{count} o'rin tanlandi",
+		"total": "Jami",
+		"pastCutoff": "Seans allaqachon boshlangan, bron qilish mavjud emas",
+		"finished": "Seans allaqachon tugagan, bron qilish mavjud emas",
+		"format": {
+			"TWO_D": "2D",
+			"THREE_D": "3D",
+			"IMAX": "IMAX",
+			"DOLBY_ATMOS": "Dolby Atmos",
+			"FOUR_DX": "4DX"
+		}
+	},
+	"booking": {
+		"title": "Buyurtma",
+		"orderSummary": "Sizning buyurtmangiz",
+		"payment": "To'lov usuli",
+		"cash": "Naqd",
+		"card": "Karta",
+		"online": "Onlayn",
+		"promoCode": "Promokod",
+		"apply": "Qo'llash",
+		"foodOrder": "Ovqat buyurtmasi",
+		"addFood": "Ovqat qo'shish",
+		"pay": "To'lash",
+		"confirmation": "Band qilish tasdiqlandi!",
+		"tickets": "Sizning chiptalaringiz",
+		"scanQr": "Kirish joyida QR-kodni ko'rsating",
+		"status": {
+			"PENDING": "Kutilmoqda",
+			"CONFIRMED": "Tasdiqlangan",
+			"CANCELLED": "Bekor qilingan",
+			"COMPLETED": "Yakunlangan",
+			"NO_SHOW": "Kelmadi"
+		},
+		"ticketStatus": {
+			"VALID": "Amal qiladi",
+			"USED": "Ishlatilgan",
+			"CANCELLED": "Bekor qilingan",
+			"EXPIRED": "Muddati tugagan"
+		},
+		"cancel_cta": "Buyurtmani bekor qilish",
+		"cancel_confirm_title": "Buyurtmani bekor qilasizmi?",
+		"cancel_confirm_body": "O'rindiqlar bo'shatiladi va buyurtma bekor qilinadi.",
+		"cancel_confirm_yes": "Ha, bekor qilish",
+		"cancel_confirm_no": "Yo'q, qoldirish",
+		"cancel_success": "Buyurtma bekor qilindi",
+		"errors": {
+			"cancel_failed": "Buyurtmani bekor qilib bo'lmadi",
+			"seats_unavailable": "{seats} o'rinlari allaqachon band — tanlovdan olib tashlandi",
+			"generic": "Bronlashni yaratib bo'lmadi"
+		},
+		"active_banner": {
+			"title": "Yakunlanmagan bron",
+			"pay_cta": "To'lash",
+			"cancel_cta": "Bekor qilish"
+		},
+		"expired_view": {
+			"title": "To'lov vaqti tugadi",
+			"subtitle": "Sizning o'rinlaringiz boshqalarga mavjud bo'ldi. Qayta tanlashni boshlang.",
+			"select_again_cta": "O'rinlarni qayta tanlash"
+		},
+		"conflict_dialog": {
+			"same_screening_title": "Ushbu seans uchun bronlashingiz bor",
+			"same_screening_body": "Siz allaqachon o'rinlarni bronladingiz: {seats}. To'lovni yakunlang yoki boshqa o'rinlarni tanlash uchun bronni bekor qiling.",
+			"other_screening_title": "To'lanmagan bronlashingiz bor",
+			"other_screening_body": "Tizim bir vaqtda faqat bitta faol bronlashga ruxsat beradi. To'lovni yakunlang yoki joriy bronni bekor qiling.",
+			"remaining": "Qoldi:",
+			"return_to_payment_cta": "To'lovga qaytish",
+			"cancel_and_rebook_cta": "Uni bekor qilib, bu o'rinlarni bronlash"
+		}
+	},
+	"profile": {
+		"title": "Profil",
+		"editProfile": "Tahrirlash",
+		"bookings": "Band qilish tarixi",
+		"favorites": "Tanlangan filmlar",
+		"loyalty": "Klub kartasi",
+		"notifications": "Bildirishnomalar",
+		"giftCards": "Sovg'a sertifikatlari",
+		"referrals": "Referal dasturi",
+		"noBookings": "Band qilishlar yo'q",
+		"noFavorites": "Tanlangan filmlar yo'q",
+		"noNotifications": "Bildirishnomalar yo'q"
+	},
+	"common": {
+		"loading": "Yuklanmoqda...",
+		"error": "Xatolik yuz berdi",
+		"retry": "Qayta urinish",
+		"save": "Saqlash",
+		"cancel": "Bekor qilish",
+		"delete": "O'chirish",
+		"edit": "Tahrirlash",
+		"create": "Yaratish",
+		"search": "Qidirish...",
+		"noResults": "Hech narsa topilmadi",
+		"back": "Orqaga",
+		"next": "Keyingi",
+		"confirm": "Tasdiqlash",
+		"close": "Yopish",
+		"status": "Holat",
+		"active": "Faol",
+		"inactive": "Faol emas",
+		"seatType": {
+			"STANDARD": "Standart",
+			"VIP": "VIP",
+			"LOVE_SEAT": "Juft oʻrindiq",
+			"RECLINER": "Reklayner",
+			"WHEELCHAIR": "Nogironlar uchun",
+			"DIRECTOR": "Direktor"
+		},
+		"bookingType": {
+			"ONLINE": "Onlayn",
+			"OFFLINE": "Kassa",
+			"GROUP": "Guruh"
+		},
+		"groupBookingStatus": {
+			"PENDING": "Kutilmoqda",
+			"APPROVED": "Tasdiqlangan",
+			"REJECTED": "Rad etilgan",
+			"CANCELLED": "Bekor qilingan"
+		},
+		"giftCardStatus": {
+			"ACTIVE": "Faol",
+			"PARTIALLY_USED": "Qisman ishlatilgan",
+			"FULLY_USED": "Ishlatilgan",
+			"EXPIRED": "Muddati tugagan"
+		},
+		"discountType": {
+			"PERCENTAGE": "Foiz",
+			"FIXED_AMOUNT": "Belgilangan summa"
+		},
+		"loyaltyTier": {
+			"BASIC": "Bazaviy",
+			"SILVER": "Kumush",
+			"GOLD": "Oltin",
+			"PLATINUM": "Platina"
+		},
+		"hallType": {
+			"STANDARD": "Standart",
+			"VIP": "VIP",
+			"IMAX": "IMAX",
+			"DOLBY_ATMOS": "Dolby Atmos",
+			"FOUR_DX": "4DX"
+		},
+		"foodCategory": {
+			"SNACKS": "Gazaklar",
+			"BEVERAGES": "Ichimliklar",
+			"COMBO": "Kombo",
+			"DESSERTS": "Desertlar"
+		},
+		"paymentStatus": {
+			"PAID": "To'langan",
+			"REFUNDED": "Qaytarilgan",
+			"PENDING": "Kutilmoqda"
+		}
+	},
+	"ticket": {
+		"yourTicket": "Sizning chiptangiz",
+		"seatsLabel": "O'rinlar",
+		"rowSeat": "{row}-qator: o'rin {seats}",
+		"rowSeats": "{row}-qator: o'rinlar {seats}",
+		"showAtEntrance": "Kirish joyida QR-kodni ko'rsating — butun buyurtmaga bitta kod",
+		"share": "Ulashish",
+		"shareCopied": "Havola nusxalandi",
+		"statusPartiallyUsed": "{total} tadan {count} ishlatilgan",
+		"entryWithThisQr": "Kirish joyida ushbu QR-kodni ko'rsating",
+		"tabs": {
+			"master": "Umumiy QR",
+			"individual": "O'rin bo'yicha"
+		},
+		"preview": "Chiptani ko'rish",
+		"openPreview": "QR-kodni ochish",
+		"closePreview": "Yopish",
+		"previousSlide": "Oldingi chipta",
+		"nextSlide": "Keyingi chipta",
+		"slideCounter": "{total} dan {current}",
+		"publicHeader": {
+			"title": "Chiptalar"
+		},
+		"header": {
+			"duration": "{n} daq",
+			"timeRange": "{start} – {end}"
+		}
+	},
+	"publicTicket": {
+		"statusUsedAt": "Ishlatilgan {time}"
+	},
+	"scanner": {
+		"title": "Chipta skaneri",
+		"scanHint": "Kamerani QR-kodga yo'naltiring",
+		"markUsed": "Yopish",
+		"alreadyUsed": "Allaqachon ishlatilgan",
+		"cancelled": "Chipta bekor qilingan",
+		"expired": "Muddati tugagan",
+		"ticketExpired": "Seans tugadi, chiptaning muddati o'tdi",
+		"noCamera": "Kameraga kirish yo'q",
+		"scanSuccess": "Chipta yopildi",
+		"unknownFormat": "QR formati noma'lum",
+		"networkError": "Aloqa yo'q, qayta urinib ko'ring",
+		"next": "Keyingi",
+		"openScanner": "Skaner",
+		"markUsedCount": "Yopish ({count})",
+		"revertCountdown": "Bekor qilish",
+		"partialResult": "Yopildi {redeemed}, o'tkazildi {skipped}",
+		"revertSuccess": "Chipta bekor qilindi",
+		"errors": {
+			"network": "Aloqa yo'q, qayta urinib ko'ring",
+			"notFound": "QR-kod noma'lum",
+			"revertExpired": "Bekor qilish oynasi tugadi",
+			"alreadyUsed": "Chipta allaqachon ishlatilgan",
+			"cancelled": "Chipta bekor qilingan",
+			"expired": "Chipta muddati oʻtgan",
+			"invalidTicket": "Chipta bu bronga tegishli emas",
+			"revertForbidden": "Faqat skanerlagan xodim bekor qila oladi"
+		}
+	},
+	"footer": {
+		"stayUpdated": "Xabardor bo'ling",
+		"newsletterText": "Yangiliklarimizga obuna bo'ling va yangi filmlar haqida birinchi bo'lib biling",
+		"emailPlaceholder": "Sizning email",
+		"rights": "Barcha huquqlar himoyalangan."
+	}
+}

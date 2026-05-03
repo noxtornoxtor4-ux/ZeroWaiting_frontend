@@ -1,0 +1,1 @@
+export const BOOKING_CUTOFF_MINUTES = 15;

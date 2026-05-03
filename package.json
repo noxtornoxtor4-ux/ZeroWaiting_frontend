@@ -1,0 +1,50 @@
+{
+	"name": "zerowaiting-frontend",
+	"private": true,
+	"version": "0.1.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"prepare": "(svelte-kit sync || echo '') && bun run generate:api",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"test": "vitest run",
+		"test:watch": "vitest",
+		"format": "prettier --write .",
+		"generate:api": "node scripts/clean-api.cjs && orval && node scripts/gen-barrel.cjs"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^7.0.0",
+		"@sveltejs/kit": "^2.50.2",
+		"@sveltejs/vite-plugin-svelte": "^6.2.4",
+		"autoprefixer": "^10.4.27",
+		"orval": "^8.5.3",
+		"postcss-pxtorem": "^6.1.0",
+		"prettier-plugin-svelte": "^3.5.1",
+		"svelte": "^5.51.0",
+		"svelte-check": "^4.4.2",
+		"typescript": "^5.9.3",
+		"vite": "^7.3.1",
+		"vitest": "^4.1.4"
+	},
+	"dependencies": {
+		"@floating-ui/dom": "^1.7.6",
+		"@iconify/svelte": "^5.2.1",
+		"@tanstack/svelte-query": "^6.1.7",
+		"@types/qrcode": "^1.5.6",
+		"@zxing/browser": "^0.1.5",
+		"@zxing/library": "^0.21.3",
+		"axios": "^1.13.6",
+		"chart.js": "^4.5.1",
+		"firebase": "^11.0.0",
+		"plyr": "^3.8.4",
+		"qrcode": "^1.5.4",
+		"sass-embedded": "^1.98.0",
+		"sharp": "^0.34.5",
+		"svelte-french-toast": "^1.2.0",
+		"svelte-i18n": "^4.0.1",
+		"svelte-reveal": "^1.1.0"
+	}
+}

@@ -1,0 +1,306 @@
+{
+	"nav": {
+		"home": "Главная",
+		"movies": "Фильмы",
+		"cinemas": "Кинотеатры",
+		"promotions": "Акции",
+		"signIn": "Войти",
+		"profile": "Профиль",
+		"myBookings": "Мои билеты",
+		"favorites": "Избранное",
+		"loyalty": "Лояльность",
+		"notifications": "Уведомления",
+		"giftCards": "Сертификаты",
+		"referrals": "Рефералы",
+		"logout": "Выйти"
+	},
+	"home": {
+		"heroTitle": "Твой кинотеатр — в одном клике",
+		"heroSubtitle": "Бронируй билеты онлайн, выбирай лучшие места",
+		"heroAction": "Смотреть афишу",
+		"nowShowing": "Сейчас в кино",
+		"upcoming": "Скоро в кино",
+		"promotions": "Акции и предложения",
+		"announcements": "Анонсы",
+		"welcome": {
+			"movie": "Фильм",
+			"goToMovie": "Перейти к фильму",
+			"addToFavorites": "В избранное",
+			"inFavorites": "В избранном",
+			"loading": "Загружаем лучшие фильмы...",
+			"noMovies": "Нет доступных фильмов",
+			"pause": "Пауза",
+			"play": "Воспроизвести"
+		}
+	},
+	"movies": {
+		"title": "Афиша",
+		"allGenres": "Все жанры",
+		"nowShowing": "В прокате",
+		"upcoming": "Скоро",
+		"search": "Поиск фильма...",
+		"duration": "{minutes} мин",
+		"noMovies": "Фильмов пока нет",
+		"buyTicket": "Купить билет",
+		"viewDetails": "Подробнее"
+	},
+	"movie": {
+		"trailer": "Трейлер",
+		"reviews": "Отзывы",
+		"sessions": "Расписание сеансов",
+		"noSessions": "Сеансов пока нет",
+		"genre": "Жанр",
+		"duration": "Длительность",
+		"language": "Язык",
+		"ageRating": "Возрастной рейтинг",
+		"releaseDate": "Дата выхода",
+		"writeReview": "Оставить отзыв",
+		"yourRating": "Ваша оценка",
+		"comment": "Комментарий",
+		"submit": "Отправить",
+		"schedule": {
+			"yesterday": "Вчера",
+			"today": "Сегодня",
+			"tomorrow": "Завтра",
+			"customRange": "Выберите диапазон"
+		},
+		"status": {
+			"NOW_SHOWING": "В прокате",
+			"UPCOMING": "Скоро",
+			"ARCHIVED": "В архиве"
+		}
+	},
+	"screening": {
+		"selectSeats": "Выберите места",
+		"screen": "Экран",
+		"available": "Свободно",
+		"selected": "Выбрано",
+		"booked": "Занято",
+		"vip": "VIP",
+		"wheelchair": "Инвалидное",
+		"held": "Забронировано",
+		"continue": "Продолжить",
+		"holdTimer": "Места забронированы на {time}",
+		"seatsSelected": "{count} мест выбрано",
+		"total": "Итого",
+		"pastCutoff": "Сеанс уже начался, бронирование недоступно",
+		"finished": "Сеанс уже завершён, бронирование недоступно",
+		"format": {
+			"TWO_D": "2D",
+			"THREE_D": "3D",
+			"IMAX": "IMAX",
+			"DOLBY_ATMOS": "Dolby Atmos",
+			"FOUR_DX": "4DX"
+		}
+	},
+	"booking": {
+		"title": "Оформление заказа",
+		"orderSummary": "Ваш заказ",
+		"payment": "Способ оплаты",
+		"cash": "Наличные",
+		"card": "Карта",
+		"online": "Онлайн",
+		"promoCode": "Промокод",
+		"apply": "Применить",
+		"foodOrder": "Заказ еды",
+		"addFood": "Добавить еду",
+		"pay": "Оплатить",
+		"confirmation": "Бронирование подтверждено!",
+		"tickets": "Ваши билеты",
+		"scanQr": "Покажите QR-код на входе",
+		"status": {
+			"PENDING": "Ожидание",
+			"CONFIRMED": "Подтверждено",
+			"CANCELLED": "Отменено",
+			"COMPLETED": "Завершено",
+			"NO_SHOW": "Неявка"
+		},
+		"ticketStatus": {
+			"VALID": "Действителен",
+			"USED": "Использован",
+			"CANCELLED": "Отменён",
+			"EXPIRED": "Истёк"
+		},
+		"cancel_cta": "Отменить бронирование",
+		"cancel_confirm_title": "Отменить бронирование?",
+		"cancel_confirm_body": "Места будут освобождены, а бронирование отменено.",
+		"cancel_confirm_yes": "Да, отменить",
+		"cancel_confirm_no": "Нет, оставить",
+		"cancel_success": "Бронирование отменено",
+		"errors": {
+			"cancel_failed": "Не удалось отменить бронирование",
+			"seats_unavailable": "Места {seats} уже заняты — сняты с выбора",
+			"generic": "Не удалось создать бронь"
+		},
+		"active_banner": {
+			"title": "Незавершённая бронь",
+			"pay_cta": "Оплатить",
+			"cancel_cta": "Отменить"
+		},
+		"expired_view": {
+			"title": "Время оплаты истекло",
+			"subtitle": "Ваши места стали доступны другим. Начните выбор заново.",
+			"select_again_cta": "Выбрать места заново"
+		},
+		"conflict_dialog": {
+			"same_screening_title": "У вас уже есть бронь на этот сеанс",
+			"same_screening_body": "Вы уже забронировали места: {seats}. Завершите оплату или отмените бронь, чтобы выбрать другие места.",
+			"other_screening_title": "У вас есть неоплаченная бронь",
+			"other_screening_body": "Система позволяет одну активную бронь одновременно. Завершите оплату или отмените текущую бронь.",
+			"remaining": "Осталось:",
+			"return_to_payment_cta": "Вернуться к оплате",
+			"cancel_and_rebook_cta": "Отменить и забронировать эти места"
+		}
+	},
+	"profile": {
+		"title": "Профиль",
+		"editProfile": "Редактировать",
+		"bookings": "История бронирований",
+		"favorites": "Избранные фильмы",
+		"loyalty": "Клубная карта",
+		"notifications": "Уведомления",
+		"giftCards": "Подарочные сертификаты",
+		"referrals": "Реферальная программа",
+		"noBookings": "У вас пока нет бронирований",
+		"noFavorites": "У вас нет избранных фильмов",
+		"noNotifications": "Нет уведомлений"
+	},
+	"common": {
+		"loading": "Загрузка...",
+		"error": "Произошла ошибка",
+		"retry": "Повторить",
+		"save": "Сохранить",
+		"cancel": "Отмена",
+		"delete": "Удалить",
+		"edit": "Редактировать",
+		"create": "Создать",
+		"search": "Поиск...",
+		"noResults": "Ничего не найдено",
+		"back": "Назад",
+		"next": "Далее",
+		"confirm": "Подтвердить",
+		"close": "Закрыть",
+		"status": "Статус",
+		"active": "Активен",
+		"inactive": "Неактивен",
+		"seatType": {
+			"STANDARD": "Стандарт",
+			"VIP": "VIP",
+			"LOVE_SEAT": "Лав-сит",
+			"RECLINER": "Реклайнер",
+			"WHEELCHAIR": "Для колясок",
+			"DIRECTOR": "Директорское"
+		},
+		"bookingType": {
+			"ONLINE": "Онлайн",
+			"OFFLINE": "Касса",
+			"GROUP": "Групповая"
+		},
+		"groupBookingStatus": {
+			"PENDING": "Ожидание",
+			"APPROVED": "Одобрено",
+			"REJECTED": "Отклонено",
+			"CANCELLED": "Отменено"
+		},
+		"giftCardStatus": {
+			"ACTIVE": "Активен",
+			"PARTIALLY_USED": "Частично использован",
+			"FULLY_USED": "Использован",
+			"EXPIRED": "Истёк"
+		},
+		"discountType": {
+			"PERCENTAGE": "Процент",
+			"FIXED_AMOUNT": "Фиксированная сумма"
+		},
+		"loyaltyTier": {
+			"BASIC": "Базовый",
+			"SILVER": "Серебряный",
+			"GOLD": "Золотой",
+			"PLATINUM": "Платиновый"
+		},
+		"hallType": {
+			"STANDARD": "Стандарт",
+			"VIP": "VIP",
+			"IMAX": "IMAX",
+			"DOLBY_ATMOS": "Dolby Atmos",
+			"FOUR_DX": "4DX"
+		},
+		"foodCategory": {
+			"SNACKS": "Снеки",
+			"BEVERAGES": "Напитки",
+			"COMBO": "Комбо",
+			"DESSERTS": "Десерты"
+		},
+		"paymentStatus": {
+			"PAID": "Оплачено",
+			"REFUNDED": "Возврат",
+			"PENDING": "Ожидание"
+		}
+	},
+	"ticket": {
+		"yourTicket": "Ваш билет",
+		"seatsLabel": "Места",
+		"rowSeat": "Ряд {row}: место {seats}",
+		"rowSeats": "Ряд {row}: места {seats}",
+		"showAtEntrance": "Покажите QR на входе — один код на весь заказ",
+		"share": "Поделиться",
+		"shareCopied": "Ссылка скопирована",
+		"statusPartiallyUsed": "{count} из {total} использовано",
+		"entryWithThisQr": "Покажите этот QR-код на входе",
+		"tabs": {
+			"master": "Общий QR",
+			"individual": "По местам"
+		},
+		"preview": "Просмотр билета",
+		"openPreview": "Увеличить QR-код",
+		"closePreview": "Закрыть",
+		"previousSlide": "Предыдущий билет",
+		"nextSlide": "Следующий билет",
+		"slideCounter": "{current} из {total}",
+		"publicHeader": {
+			"title": "Билеты"
+		},
+		"header": {
+			"duration": "{n} мин",
+			"timeRange": "{start} – {end}"
+		}
+	},
+	"publicTicket": {
+		"statusUsedAt": "Использован {time}"
+	},
+	"scanner": {
+		"title": "Сканер билетов",
+		"scanHint": "Наведите камеру на QR-код",
+		"markUsed": "Погасить",
+		"alreadyUsed": "Уже использован",
+		"cancelled": "Билет отменён",
+		"expired": "Срок действия истёк",
+		"ticketExpired": "Сеанс уже закончился, билет истёк",
+		"noCamera": "Нет доступа к камере",
+		"scanSuccess": "Билет погашен",
+		"unknownFormat": "Неизвестный формат QR",
+		"networkError": "Нет связи, повторите",
+		"next": "Следующий",
+		"openScanner": "Сканер",
+		"markUsedCount": "Погасить ({count})",
+		"revertCountdown": "Отменить",
+		"partialResult": "Погашено {redeemed}, пропущено {skipped}",
+		"revertSuccess": "Билет отменён",
+		"errors": {
+			"network": "Нет связи, повторите",
+			"notFound": "Неизвестный QR-код",
+			"revertExpired": "Окно отмены истекло",
+			"alreadyUsed": "Билет уже использован",
+			"cancelled": "Билет отменён",
+			"expired": "Билет просрочен",
+			"invalidTicket": "Билет не из этой брони",
+			"revertForbidden": "Откат доступен только тому, кто погасил"
+		}
+	},
+	"footer": {
+		"stayUpdated": "Будьте в курсе",
+		"newsletterText": "Подпишитесь на новости и получайте информацию о новинках первыми",
+		"emailPlaceholder": "Ваш email",
+		"rights": "Все права защищены."
+	}
+}

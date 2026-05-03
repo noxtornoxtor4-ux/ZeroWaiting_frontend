@@ -1,0 +1,306 @@
+{
+	"nav": {
+		"home": "Home",
+		"movies": "Movies",
+		"cinemas": "Cinemas",
+		"promotions": "Promotions",
+		"signIn": "Sign In",
+		"profile": "Profile",
+		"myBookings": "My Tickets",
+		"favorites": "Favorites",
+		"loyalty": "Loyalty",
+		"notifications": "Notifications",
+		"giftCards": "Gift Cards",
+		"referrals": "Referrals",
+		"logout": "Log Out"
+	},
+	"home": {
+		"heroTitle": "Your cinema — in one click",
+		"heroSubtitle": "Book tickets online, choose the best seats",
+		"heroAction": "Browse movies",
+		"nowShowing": "Now Showing",
+		"upcoming": "Coming Soon",
+		"promotions": "Promotions & Offers",
+		"announcements": "Announcements",
+		"welcome": {
+			"movie": "Movie",
+			"goToMovie": "Go to movie",
+			"addToFavorites": "Add to favorites",
+			"inFavorites": "In favorites",
+			"loading": "Loading best movies...",
+			"noMovies": "No movies available",
+			"pause": "Pause",
+			"play": "Play"
+		}
+	},
+	"movies": {
+		"title": "Movies",
+		"allGenres": "All genres",
+		"nowShowing": "Now Showing",
+		"upcoming": "Coming Soon",
+		"search": "Search movies...",
+		"duration": "{minutes} min",
+		"noMovies": "No movies yet",
+		"buyTicket": "Buy Ticket",
+		"viewDetails": "Details"
+	},
+	"movie": {
+		"trailer": "Trailer",
+		"reviews": "Reviews",
+		"sessions": "Showtimes",
+		"noSessions": "No showtimes available",
+		"genre": "Genre",
+		"duration": "Duration",
+		"language": "Language",
+		"ageRating": "Age Rating",
+		"releaseDate": "Release Date",
+		"writeReview": "Write a Review",
+		"yourRating": "Your Rating",
+		"comment": "Comment",
+		"submit": "Submit",
+		"schedule": {
+			"yesterday": "Yesterday",
+			"today": "Today",
+			"tomorrow": "Tomorrow",
+			"customRange": "Pick a date range"
+		},
+		"status": {
+			"NOW_SHOWING": "Now Showing",
+			"UPCOMING": "Upcoming",
+			"ARCHIVED": "Archived"
+		}
+	},
+	"screening": {
+		"selectSeats": "Select your seats",
+		"screen": "Screen",
+		"available": "Available",
+		"selected": "Selected",
+		"booked": "Booked",
+		"vip": "VIP",
+		"wheelchair": "Wheelchair",
+		"held": "Held",
+		"continue": "Continue",
+		"holdTimer": "Seats held for {time}",
+		"seatsSelected": "{count} seats selected",
+		"total": "Total",
+		"pastCutoff": "The screening has already started, booking is unavailable",
+		"finished": "The screening has already ended, booking is unavailable",
+		"format": {
+			"TWO_D": "2D",
+			"THREE_D": "3D",
+			"IMAX": "IMAX",
+			"DOLBY_ATMOS": "Dolby Atmos",
+			"FOUR_DX": "4DX"
+		}
+	},
+	"booking": {
+		"title": "Checkout",
+		"orderSummary": "Your Order",
+		"payment": "Payment Method",
+		"cash": "Cash",
+		"card": "Card",
+		"online": "Online",
+		"promoCode": "Promo Code",
+		"apply": "Apply",
+		"foodOrder": "Food Order",
+		"addFood": "Add Food",
+		"pay": "Pay",
+		"confirmation": "Booking Confirmed!",
+		"tickets": "Your Tickets",
+		"scanQr": "Show QR code at the entrance",
+		"status": {
+			"PENDING": "Pending",
+			"CONFIRMED": "Confirmed",
+			"CANCELLED": "Cancelled",
+			"COMPLETED": "Completed",
+			"NO_SHOW": "No Show"
+		},
+		"ticketStatus": {
+			"VALID": "Valid",
+			"USED": "Used",
+			"CANCELLED": "Cancelled",
+			"EXPIRED": "Expired"
+		},
+		"cancel_cta": "Cancel booking",
+		"cancel_confirm_title": "Cancel booking?",
+		"cancel_confirm_body": "Your seats will be released and the booking will be cancelled.",
+		"cancel_confirm_yes": "Yes, cancel",
+		"cancel_confirm_no": "No, keep",
+		"cancel_success": "Booking cancelled",
+		"errors": {
+			"cancel_failed": "Failed to cancel booking",
+			"seats_unavailable": "Seats {seats} are already taken — removed from selection",
+			"generic": "Failed to create booking"
+		},
+		"active_banner": {
+			"title": "Unfinished booking",
+			"pay_cta": "Pay",
+			"cancel_cta": "Cancel"
+		},
+		"expired_view": {
+			"title": "Payment time expired",
+			"subtitle": "Your seats are now available to others. Please start a new selection.",
+			"select_again_cta": "Choose seats again"
+		},
+		"conflict_dialog": {
+			"same_screening_title": "You already have a booking for this screening",
+			"same_screening_body": "You have already booked seats: {seats}. Complete the payment or cancel the booking to choose different seats.",
+			"other_screening_title": "You have an unpaid booking",
+			"other_screening_body": "The system allows only one active booking at a time. Complete the payment or cancel the current booking.",
+			"remaining": "Time left:",
+			"return_to_payment_cta": "Return to payment",
+			"cancel_and_rebook_cta": "Cancel it and book these seats"
+		}
+	},
+	"profile": {
+		"title": "Profile",
+		"editProfile": "Edit",
+		"bookings": "Booking History",
+		"favorites": "Favorite Movies",
+		"loyalty": "Loyalty Card",
+		"notifications": "Notifications",
+		"giftCards": "Gift Cards",
+		"referrals": "Referral Program",
+		"noBookings": "No bookings yet",
+		"noFavorites": "No favorite movies",
+		"noNotifications": "No notifications"
+	},
+	"common": {
+		"loading": "Loading...",
+		"error": "Something went wrong",
+		"retry": "Retry",
+		"save": "Save",
+		"cancel": "Cancel",
+		"delete": "Delete",
+		"edit": "Edit",
+		"create": "Create",
+		"search": "Search...",
+		"noResults": "No results found",
+		"back": "Back",
+		"next": "Next",
+		"confirm": "Confirm",
+		"close": "Close",
+		"status": "Status",
+		"active": "Active",
+		"inactive": "Inactive",
+		"seatType": {
+			"STANDARD": "Standard",
+			"VIP": "VIP",
+			"LOVE_SEAT": "Love seat",
+			"RECLINER": "Recliner",
+			"WHEELCHAIR": "Wheelchair",
+			"DIRECTOR": "Director"
+		},
+		"bookingType": {
+			"ONLINE": "Online",
+			"OFFLINE": "Box Office",
+			"GROUP": "Group"
+		},
+		"groupBookingStatus": {
+			"PENDING": "Pending",
+			"APPROVED": "Approved",
+			"REJECTED": "Rejected",
+			"CANCELLED": "Cancelled"
+		},
+		"giftCardStatus": {
+			"ACTIVE": "Active",
+			"PARTIALLY_USED": "Partially Used",
+			"FULLY_USED": "Fully Used",
+			"EXPIRED": "Expired"
+		},
+		"discountType": {
+			"PERCENTAGE": "Percentage",
+			"FIXED_AMOUNT": "Fixed Amount"
+		},
+		"loyaltyTier": {
+			"BASIC": "Basic",
+			"SILVER": "Silver",
+			"GOLD": "Gold",
+			"PLATINUM": "Platinum"
+		},
+		"hallType": {
+			"STANDARD": "Standard",
+			"VIP": "VIP",
+			"IMAX": "IMAX",
+			"DOLBY_ATMOS": "Dolby Atmos",
+			"FOUR_DX": "4DX"
+		},
+		"foodCategory": {
+			"SNACKS": "Snacks",
+			"BEVERAGES": "Beverages",
+			"COMBO": "Combo",
+			"DESSERTS": "Desserts"
+		},
+		"paymentStatus": {
+			"PAID": "Paid",
+			"REFUNDED": "Refunded",
+			"PENDING": "Pending"
+		}
+	},
+	"ticket": {
+		"yourTicket": "Your ticket",
+		"seatsLabel": "Seats",
+		"rowSeat": "Row {row}: seat {seats}",
+		"rowSeats": "Row {row}: seats {seats}",
+		"showAtEntrance": "Show the QR at the entrance — one code for the whole order",
+		"share": "Share",
+		"shareCopied": "Link copied",
+		"statusPartiallyUsed": "{count} of {total} used",
+		"entryWithThisQr": "Show this QR code at the entrance",
+		"tabs": {
+			"master": "Common QR",
+			"individual": "Per seat"
+		},
+		"preview": "Ticket preview",
+		"openPreview": "Open QR preview",
+		"closePreview": "Close preview",
+		"previousSlide": "Previous ticket",
+		"nextSlide": "Next ticket",
+		"slideCounter": "{current} of {total}",
+		"publicHeader": {
+			"title": "Tickets"
+		},
+		"header": {
+			"duration": "{n} min",
+			"timeRange": "{start} – {end}"
+		}
+	},
+	"publicTicket": {
+		"statusUsedAt": "Used at {time}"
+	},
+	"scanner": {
+		"title": "Ticket scanner",
+		"scanHint": "Point the camera at a QR code",
+		"markUsed": "Mark as used",
+		"alreadyUsed": "Already used",
+		"cancelled": "Ticket cancelled",
+		"expired": "Ticket expired",
+		"ticketExpired": "Screening has ended; ticket is expired",
+		"noCamera": "No camera access",
+		"scanSuccess": "Ticket marked as used",
+		"unknownFormat": "Unknown QR format",
+		"networkError": "Network error, retry",
+		"next": "Next",
+		"openScanner": "Scanner",
+		"markUsedCount": "Mark as used ({count})",
+		"revertCountdown": "Undo",
+		"partialResult": "Redeemed {redeemed}, skipped {skipped}",
+		"revertSuccess": "Ticket reverted",
+		"errors": {
+			"network": "Network error, retry",
+			"notFound": "Unknown QR code",
+			"revertExpired": "Revert window expired",
+			"alreadyUsed": "Ticket already used",
+			"cancelled": "Ticket cancelled",
+			"expired": "Ticket expired",
+			"invalidTicket": "Ticket not in this booking",
+			"revertForbidden": "Only the original scanner can revert"
+		}
+	},
+	"footer": {
+		"stayUpdated": "Stay updated",
+		"newsletterText": "Subscribe to our newsletter and be the first to know about new releases",
+		"emailPlaceholder": "Your email",
+		"rights": "All rights reserved."
+	}
+}
